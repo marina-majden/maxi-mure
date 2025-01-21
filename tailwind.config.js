@@ -59,6 +59,7 @@ export default {
                 blacks: {
                     /* shades of dark greys and blacks with different undertones of warm and cold colors */
                     DEFAULT: "#303030",
+                    100: "#202020",
                 },
             },
         },
