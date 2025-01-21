@@ -5,6 +5,7 @@ import Products from "./components/Products";
 import Reviews from "./components/Reviews";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Logo from "./components/Logo";
 
 function App() {
     /*   const blobCursor = function () {
@@ -43,6 +44,7 @@ function App() {
             <Reviews />
 
             <Contact />
+            <Logo />
             <Footer />
         </>
     );
