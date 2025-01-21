@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
- font-size: 1rem;
- line-height: 1.2;
-font-optical-sizing: none;
-text-rendering: geometricPrecision;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-optical-sizing: none;
+    text-rendering: geometricPrecision;
 }
 body {
-  @apply bg-zinc-900 text-zinc-200 font-text;
-
-
-
+    @apply bg-neutral-900 text-basic;
+}
+p {
+    @apply text-basic font-text text-lg px-4 py-2 mb-4;
 }
