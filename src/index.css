@@ -13,6 +13,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    max-width: 100vw;
 }
 body {
     @apply bg-blacks-100 text-basic;
@@ -28,32 +29,4 @@ h6 {
 p {
     @apply text-basic font-text text-lg px-4 py-2 mb-4 text-pretty;
     width: 48ch;
-}
-#cursor-blob {
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(
-        120deg,
-        #ff414d,
-        #002d40,
-        #d9ecf2,
-        #f56a79,
-        #1aa6b7
-    );
-    background-size: 1600% 1600%;
-    position: absolute;
-    mix-blend-mode: difference;
-    pointer-events: none;
-    z-index: 1;
-    transition: 0.15s linear;
-    animation: blob-radius 5s ease infinite, blob-background 15s ease infinite;
-}
-
-li {
-    cursor: pointer;
-    font-size: 10vw;
-    transition: transform 0.25s ease;
-}
-li:hover {
-    transform: translateX(25px);
 }

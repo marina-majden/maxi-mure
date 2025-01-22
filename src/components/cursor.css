@@ -1,0 +1,29 @@
+#cursor-blob {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(
+        120deg,
+        #e627ca,
+        #002d40,
+        #d9ecf2,
+        #f56a79,
+        #1aa6b7
+    );
+    background-size: 1600% 1600%;
+    border-radius: 50%;
+    position: absolute;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    z-index: 1;
+    transition: 0.15s linear;
+    animation: blob-radius 5s ease infinite, blob-background 15s ease infinite;
+}
+
+.nav-link {
+    cursor: pointer;
+    font-size: 2rem;
+    transition: transform 0.25s ease;
+}
+.nav-link:hover {
+    transform: translateX(25px);
+}
